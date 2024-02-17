@@ -116,6 +116,9 @@ MacOS 用戶可以直接打開終端機：
 ```sh
 # x.x.x.x 請換成主機的 ip 位址
 ssh root@x.x.x.x
+
+# 之後變更 ssh port 之後，改為使用以下方式
+ssh -p <port 號> root@x.x.x.x
 ```
 
 會看到以下的內容：
